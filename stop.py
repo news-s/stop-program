@@ -18,7 +18,7 @@ def is_program_running(program_name):
 def show_popup():
     root = tk.Tk()
     root.withdraw()  # Ukrywa główne okno
-    messagebox.showinfo("Program uruchomiony", f"{TARGET_PROGRAM} został uruchomiony! Czy jesteś pewien, że potrzebujesz z niego korzystać?")
+    messagebox.showinfo("Program uruchomiony", "Czy jesteś pewien, że potrzebujesz z niego korzystać?")
     root.destroy()  # Zamyka okno po potwierdzeniu
 
 if __name__ == "__main__":
