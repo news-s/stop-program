@@ -21,10 +21,8 @@ def is_program_running(program_name):
     return False
 
 if __name__ == "__main__":
-    # Nazwa programu, którego uruchomienie chcesz monitorować
-    TARGET_PROGRAM = "RobloxPlayerBeta.exe" # Zmień na nazwę programu, który chcesz monitorować
+    TARGET_PROGRAM = "RobloxPlayerBeta.exe"
 
-    # Pętla, która monitoruje uruchomienie programu
     while True:
         program = is_program_running(TARGET_PROGRAM)
         if program:
